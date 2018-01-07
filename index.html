@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Test Page</title>
+        <meta charset="UTF-8"/>
+        <script src="autocomplete.js"></script>
+        <script>
+            var items = [
+                {id:1, value: "First Value"},
+                {id:2, value: "Second Value"},
+                {id:3, value: "Third Value"},
+                {id:4, value: "Fourth Value"},
+                {id:5, value: "Fifth Value"},
+                {id:6, value: "Sixt Value"}
+            ];
+            window.addEventListener("load", function(){
+                var search1Input = document.querySelector("#search1");
+                AutoComplete.init(search1Input);
+                search1Input.loadData(items.map(x => x.value));
+                
+            });
+        </script>
+    </head>
+    <body>
+        <label>Searchbox:</label><br />
+        <input type="text" id="search1"/><br />
+    </body>
+</html>
