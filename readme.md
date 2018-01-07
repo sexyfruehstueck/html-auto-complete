@@ -5,6 +5,8 @@
 Small Javascript Auto Complete Tool  
 ![Small Javascript Auto Complete Tool](https://raw.githubusercontent.com/sexyfruehstueck/html-auto-complete/master/readme/screenshot.png "Small Javascript Auto Complete Tool")
 
+[Mini Demo](https://rawgit.com/sexyfruehstueck/html-auto-complete/master/index.html)
+
 ## Features
 * Auto Complete Tool function for Input Fields
 * _ArrowKeys_ (Up and Down) to select an Item
