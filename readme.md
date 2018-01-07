@@ -39,7 +39,6 @@ git@github.com:sexyfruehstueck/html-auto-complete.git
     /* loads data for the auto complete */
     searchInput.loadData(data);
 
-
 ### File / Folder Structure
 
     +-- readme.md (this document)
